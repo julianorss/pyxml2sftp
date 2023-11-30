@@ -5,7 +5,6 @@ from smbclient import register_session, remove, copyfile, scandir
 from dotenv import load_dotenv
 import paramiko
 from datetime import datetime
-import schedule
 import time
 
 # Carrega as variáveis de ambiente do diretório atual (src/)
